@@ -1,0 +1,13 @@
+name: GitHub sample file
+on:
+  push:
+    branches:
+      -master
+
+jobs:
+  Example-job:
+    name: sample
+    runs-on: ubuntu_latest
+    
+    steps:
+      - run: echo "This was successful"
