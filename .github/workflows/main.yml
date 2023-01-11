@@ -2,7 +2,7 @@ name: GitHub sample file
 on:
   push:
     branches:
-      -dev_incr_data_val
+      -master
 
 jobs:
   Example-job:
